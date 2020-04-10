@@ -1,0 +1,15 @@
+SCSS SYNTAX
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+SCSS SYNTAX
+nav li {
+  display: inline-block; }
+SCSS SYNTAX
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none; }
+
+/*# sourceMappingURL=scss_inherit.css.map */
