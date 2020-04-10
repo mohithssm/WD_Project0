@@ -63,16 +63,9 @@
     background-color: yellow;
   }
 
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 5vw);
-    grid-gap: 15px;
-  }
-
 
 @media screen and (max-width: 800px) {
-    .grid, .grid-item {   
+    .grid, .grid-item, .card, .col, .row {   
       width: 100%;
       padding: 0;
     }
