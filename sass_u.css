@@ -1,0 +1,75 @@
+h1 {
+  border: 3px solid black;
+  font-family: "Courier New", Courier, monospace;
+}
+
+*{ 
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.wallpapersden.com/image/download/simple-night_63877_3840x2160.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ul {
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+ul li {
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color:white;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+ul li a:hover{
+  background-color: lightgrey;
+  color:black
+}
+.main{
+  max-width: 1200px;
+  margin: auto;
+}
+.title {
+  border-radius: 10px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.title h1{ 
+  color:white;
+  font-size: 70px;
+}
+.button {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.btn {
+  border: 1px solid white;
+  padding: 10px 30px;
+  color: white;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+.btn:hover {
+  background-color: lightgrey;
+  color:black
+}
+@media screen and (max-width: 800px) {
+  .grid, .grid-item, .card, .col, .row {   
+    width: 100%;
+    padding: 0;
+  }
+}
