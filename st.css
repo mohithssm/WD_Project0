@@ -63,6 +63,10 @@
     background-color: yellow;
   }
 
+  table {
+    border: 2px solid black;
+    width: 400px;
+  }
 
 @media screen and (max-width: 800px) {
     .grid, .grid-item, .card, .col, .row {   
