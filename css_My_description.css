@@ -1,0 +1,48 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+  background-image: url(https://www.desktopbackground.org/download/o/2010/05/04/12317_anonymous-wallpaper-download-here-by-iisakkir6522-on-deviantart_3840x2160_h.png);
+}
+
+.btn {
+  border: 1px solid white;
+  padding: 10px 30px;
+  color: white;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+
+.btn:hover {
+  background-color: lightgrey;
+  color:black
+}
+
+ul li a{
+  text-decoration: none;
+  color:white;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: lightgrey;
+  color:black
+}
+
+@media screen and (max-width: 600px) {
+  .grid, .grid-item, .container, .card, .col, .row {   
+    width: 100%;
+    padding: 0;
+    background-image: url(https://image.freepik.com/free-vector/technology-banner-background-with-hexagonal-shapes-text-space_1017-22589.jpg);
+  }
+}
+
+@media screen and (min-width: 599px) {
+  .grid, .grid-item, .container, .card, .col, .row {   
+    width: 100%;
+    padding: 0;
+  }
+}

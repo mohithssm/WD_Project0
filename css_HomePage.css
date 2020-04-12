@@ -38,6 +38,7 @@ ul li a:hover{
 .main{
   max-width: 1200px;
   margin: auto;
+  font-size: 24px;
 }
 .title {
   border-radius: 10px;

@@ -1,0 +1,38 @@
+
+body {
+    font-family: Arial;
+    font-size: 24px;
+    color: white;
+    padding: 10px;
+    background-image: url(https://www.desktopbackground.org/download/o/2010/05/04/12317_anonymous-wallpaper-download-here-by-iisakkir6522-on-deviantart_3840x2160_h.png);
+}
+
+.button {
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn {
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover {
+    background-color: lightgrey;
+    color:black
+}
+
+ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: lightgrey;
+    color:black
+}
